@@ -22,7 +22,7 @@ function currentLine(katzDeliLine){
   }
 
   for(let i = katzDeliLine.length;i<0;i--){
-    
+
     string1="s";
     //`${katzDeliLine.length-i+1}. ${katzDeliLine[katzDeliLine.length-i]}`;
     if(i!=katzDeliLine){string1+=", ";}
