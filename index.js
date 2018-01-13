@@ -21,7 +21,7 @@ function currentLine(katzDeliLine){
   }
 
   for(let i = katzDeliLine.length;i<0;i--){
-    console.log(string1)
+    console.log(string1);
     string1="s";
     //`${katzDeliLine.length-i+1}. ${katzDeliLine[katzDeliLine.length-i]}`;
     if(i!=katzDeliLine){string1+=", ";}
