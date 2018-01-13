@@ -21,7 +21,7 @@ function currentLine(katzDeliLine){
   }
   for(let i = katzDeliLine.length;i<0;i--){
     string+=`${i}. katzDeliLine[katzDeliLine-i]`
-    if(i!=katzDeliLine){string+=", "}
+    if(i!=katzDeliLine){string+=", ";}
   }
   return `The line is currently: ${string}`
 }
