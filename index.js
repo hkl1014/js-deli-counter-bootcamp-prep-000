@@ -23,5 +23,5 @@ function currentLine(katzDeliLine){
     string1+=`${katzDeliLine.length-i+1}. ${katzDeliLine[katzDeliLine.length-i]}`
     if(i!=katzDeliLine){string+=", ";}
   }
-  return `The line is currently: ${string}`
+  return `The line is currently: ${string1}`
 }
