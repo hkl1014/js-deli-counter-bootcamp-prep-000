@@ -22,10 +22,8 @@ function currentLine(katzDeliLine){
   }
 
   for(let i = katzDeliLine.length;i>0;i--){
-console.log("shit");
-    string1="shit";
 
-    //`${katzDeliLine.length-i+1}. ${katzDeliLine[katzDeliLine.length-i]}`;
+    string1=`${katzDeliLine.length-i+1}. ${katzDeliLine[katzDeliLine.length-i]}`;
     if(i!=katzDeliLine){string1+=", ";}
   }
 
