@@ -19,13 +19,13 @@ function currentLine(katzDeliLine){
   if(katzDeliLine.length==0){
     return "The line is currently empty."
   }
-  else{
+
   for(let i = katzDeliLine.length;i<0;i--){
+    console.log(string1)
     string1="s";
     //`${katzDeliLine.length-i+1}. ${katzDeliLine[katzDeliLine.length-i]}`;
     if(i!=katzDeliLine){string1+=", ";}
   }
 
   return `The line is currently: ${string1}`
-  }
 }
