@@ -13,3 +13,15 @@ function nowServing(katzDeliLine){
   }
   else{return "There is nobody waiting to be served!"}
 }
+
+function currentLine(katzDeliLine){
+  var string;
+  if(katzDeliLine==0){
+    return "The line is currently empty."
+  }
+  for(let i = katzDeliLine.length;i<0;i--){
+    string+=`${i}. katzDeliLine[katzDeliLine-i]`
+    if(i!=katzDeliLine){string+=", "}
+  }
+  return `The line is currently: ${string}`
+}
