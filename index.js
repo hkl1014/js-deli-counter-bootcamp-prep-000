@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine,name){
   return string
 }
 
-function nowServing(katzDeline){
+function nowServing(katzDeliLine){
   if (katzDeliLine.length>0){
     katzDeliLine.splice(0,1);
   }
